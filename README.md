@@ -1,5 +1,5 @@
 # ODAS -> ROS
-This project is being developped by the [IntRoLab](https://introlab.3it.usherbrooke.ca/mediawiki-introlab/index.php/Main_Page) team.
+This project is being developped by the [IntRoLab](https://introlab.3it.usherbrooke.ca/mediawiki-introlab/index.php/Main_Page) team. Added the Kinect azure config file.
 
 ## Prerequisites
 You will need CMake, GCC and the following external libraries:
@@ -27,6 +27,11 @@ catkin_make
 ```
 To get more information on how to use [odas_ros](https://github.com/introlab/odas_ros/tree/redesign_modular/odas_ros) and [soundtracking](https://github.com/introlab/odas_ros/tree/redesign_modular/sound_tracking), visit the README.md of the corresponding folders. 
 
+## Usage with Kinect azure
+```
+roslaunch odas_server odas_core.launch
+```
+The config file has been already added as default
 ## Repository
 ### odas_msgs
 Contains the [message](https://github.com/introlab/odas_ros/tree/redesign_modular_v2/odas_msgs/msg) declaration used by odas_server and sound_tracking. 
